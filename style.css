@@ -3,6 +3,11 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+i {
+    transform: scale(1.4);
+    color: rgb(122, 120, 120);
+    padding: 8px;
+}
 .curl {
     font-family: 'Cedarville Cursive';
     font-style: italic;
@@ -12,6 +17,8 @@
     font-size: 60px;
     color: #1dbf73;
 }
+
+                                                                        /* Header  */
 .header {
     background-color: #ab405b;
     color: white;
@@ -71,6 +78,7 @@ ul{
     font-size: 14px;
     padding-top: 4px;
 }
+
 .desc {
     width: 600px;
     padding-top: 120px;
@@ -89,6 +97,8 @@ ul{
 .list-bottom > li:nth-child(2) {
     float: left;
 }
+
+                                                                       /* Get Started  */
 .get-started {
     background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png");
     margin: 40px;
@@ -113,6 +123,8 @@ ul{
     margin-top: 34px;
     margin-left: 70px;
 }
+
+                                                                                       /* trust/ */
 .trust > ul {
     display: flex;
     flex-direction: row;
@@ -129,6 +141,8 @@ ul{
     text-align: right;
     padding-top: 20px;
 }
+
+                                                                              /* popular */
 .popular > ul > li > a{
     display: inline-flex;
     flex-direction: row;
@@ -175,6 +189,8 @@ ul{
 .clear {
     clear: both;
 }
+
+                                                                    /* fiverr business */
 .fiverr-business {
     background-color: #0d084d;
     color: white;
@@ -206,9 +222,9 @@ h1 > span {
     margin-bottom: 6px;
 }
 
-/* Explor the MarketPlace */
+                                                                    /* Explor the MarketPlace */
 
-.trust + h1 {
+.trust ~ h1 {
     padding-left: 34px;
 }
 .explore {
@@ -234,3 +250,48 @@ h1 > span {
     text-decoration: none;
 }
 
+  /* Popular Professional Services */
+
+.services {
+    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741678/logo-design-2x.png");
+}
+
+/* Fiverr Guides */
+
+.fiverr-guides {
+    padding: 34px;
+}
+.fiverr-guides > h1 {
+    float: left;
+}
+.fiverr-guides > a {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.guides {
+    display: flex;
+    flex-direction: row;
+}
+.guide {
+    width: 34vw;
+    margin-right: 28px;
+    margin-top: 30px;
+    border-radius: 6px;
+    line-height: 1.6;
+    overflow: hidden;
+}
+.guide > img + p {
+    font-size: 18px;
+}
+.guide > p + p {
+    color: rgb(95, 94, 94);
+    font-size: 17px;
+}
+.guide > img {
+    border-radius: 6px;
+    size: fixed;
+}
+.guide-3 {
+    margin-right: 0px;
+}
