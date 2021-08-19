@@ -193,24 +193,25 @@ ul{
     clear: both;
 }
 
-                                                                    /* fiverr business */
+                                                                                     /* fiverr business */
+
 .fiverr-business {
     background-color: #0d084d;
     color: white;
-    display: grid;
-    grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: 1fr;
-    gap: 50px;
     padding: 80px 20px 80px 20px;
+    display: flex;
 }
 .fiverr-business > .f-biz-cont {
-    grid-area: 1 / 1 / span 1 / span 5;
+    width: 50vw;
+}
+.f-biz-cont > h1:nth-child(2) {
+    padding-right: 300px;
+}
+.f-biz-cont > p:nth-child(3) {
+    padding-right: 200px;
 }
 .fiverr-business img {
-    height: 80%;
-}
-.fiverr-business > .f-biz-image {
-    grid-area: 1 / 6 / span 1 / span 7;
+    width: 50vw;
 }
 h1 > span {
     font-weight: 900;
@@ -218,14 +219,36 @@ h1 > span {
 .new {
     color: white;
     background-color: #584aff;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 100;
-    padding: 2px 6px;
+    padding: 1px 6px;
     border-radius: 12px;
-    margin-bottom: 6px;
 }
 
-                                                                    /* Explor the MarketPlace */
+.f-biz-cont > ul > li {
+    line-height: 2;
+}
+
+.f-biz-cont > ul > li > i {
+    color: rgb(155, 155, 150);
+}
+
+
+
+
+
+         
+ .f-biz-cont > h1:nth-child(2){
+     padding-top: 30px;
+     padding-bottom: 28px;
+ }
+
+ .f-biz-cont > p:nth-child(3) {
+     font-size: 19px;
+     line-height: 1.5;
+     margin-bottom: 28px;
+ }
+ /* Explor the MarketPlace */
 
 .trust ~ h1 {
     padding-left: 34px;
