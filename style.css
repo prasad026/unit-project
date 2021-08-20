@@ -270,11 +270,6 @@ h1 > span {
     text-decoration: none;
 }
 
-  /* Popular Professional Services */
-
-.services {
-    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741678/logo-design-2x.png");
-}
 
 /* Fiverr Guides */
 
@@ -381,3 +376,35 @@ h1 > span {
     border-radius: 5px;
 }
 
+  /* Popular Professional Services */
+
+
+.services-slides {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.services-slides > div {
+    width: 18vw;
+}
+.services-slides > div {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.services-slides > div > img {
+    padding-right: 20px;
+}
+.services-slides > div:first-child {
+    margin-left: 36px;
+}
+.services-slides > div {
+    position: relative;
+}
+.services-slides > div > .cont-service {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
