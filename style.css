@@ -19,8 +19,12 @@ i {
 }
 
                                                                         /* Header  */
+                                                      ::placeholder {
+                                                          padding-left: 20px;
+                                                          font-size: 17px;
+                                                      }
 .header {
-    background-color: #ab405b;
+    background-color: #00421a;
     color: white;
     padding-bottom: 200px;
     size: 500px;
@@ -29,7 +33,7 @@ i {
     height: 80px;
 }
 .nav > ul > li > button {
-    background-color: #ab405b;
+    background-color: #00421a;
     border: 1px solid white;
     border-radius: 5px;
     margin-top: 0px;
@@ -410,6 +414,9 @@ h1 > span {
     top: 20px;
     left: 20px;
     color: white;
+}
+.services-slides > div > div > h1 {
+    font-size: 26px;
 }
 
 /* A whole world of freelance  */
