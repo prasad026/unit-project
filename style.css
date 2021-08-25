@@ -471,3 +471,36 @@ video {
     font-size: 17px;
     color: rgb(126, 123, 123);
 }
+
+
+                            /* Get inspired */
+                        
+.get-inspired {
+    padding: 34px;
+    display: flex;
+}
+.profile {
+    width: 21vw;
+    overflow: hidden;
+    margin-right: 3vw;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.photo {
+    border-radius: 50%;
+    padding: 14px 10px 14px 14px;
+    float: left;
+}
+.liness {
+    float: left;
+    padding-top: 14px;
+    font-size: 14px;
+}
+.line-1 {
+    font-weight: bold;
+}
+.line-2 {
+    color: rgb(168, 165, 165);
+    padding-top: 10px;
+}
+                            
