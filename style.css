@@ -3,6 +3,10 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.change-color:hover {
+    background-color: white;
+    color: black;
+}
 i {
     transform: scale(1.4);
     color: rgb(122, 120, 120);
@@ -18,19 +22,23 @@ i {
     color: #1dbf73;
 }
 
-                                                                        /* Header  */
-                                                      ::placeholder {
-                                                          padding-left: 20px;
-                                                          font-size: 17px;
-                                                      }
+ /* Header  */
+::placeholder {
+    padding-left: 20px;
+     font-size: 17px;
+}
 .header {
     background-color: #00421a;
     color: white;
     padding-bottom: 200px;
     size: 500px;
 }
+
 .nav {
     height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
 }
 .nav > ul > li > button {
     background-color: #00421a;
@@ -104,8 +112,7 @@ ul{
 .list-bottom > li:nth-child(2) {
     float: left;
 }
-
-                                                                       /* Get Started  */
+                        /* Get Started  */
 .get-started {
     background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png");
     margin: 40px;
@@ -131,7 +138,7 @@ ul{
     margin-left: 70px;
 }
 
-                                                                                       /* trust/ */
+                               /* trust/ */
 .trust > ul {
     display: flex;
     flex-direction: row;
@@ -152,7 +159,7 @@ ul{
     padding-bottom: 100px;
 }
 
-                                                                              /* popular */
+                             /* popular */
 .popular > ul > li > a{
     display: inline-flex;
     flex-direction: row;
@@ -199,8 +206,7 @@ ul{
 .clear {
     clear: both;
 }
-
-                                                                                     /* fiverr business */
+                    /* fiverr business */
 
 .fiverr-business {
     background-color: #0d084d;
@@ -249,7 +255,8 @@ h1 > span {
      line-height: 1.5;
      margin-bottom: 28px;
  }
- /* Explor the MarketPlace */
+
+                       /* Explor the MarketPlace */
 
 .trust ~ h1 {
     padding-left: 34px;
@@ -278,7 +285,7 @@ h1 > span {
 }
 
 
-/* Fiverr Guides */
+                                 /* Fiverr Guides */
 
 .fiverr-guides {
     padding: 34px;
@@ -346,7 +353,7 @@ h1 > span {
 }
 
 
-/* Fiverr Logo Maker  */
+                            /* Fiverr Logo Maker  */
 
 .logo-maker {
     background-color: #4a73e8;
@@ -383,8 +390,7 @@ h1 > span {
     border-radius: 5px;
 }
 
-  /* Popular Professional Services */
-
+                       /* Popular Professional Services */
 
 .services-slides {
     display: flex;
@@ -402,6 +408,8 @@ h1 > span {
 }
 .services-slides > div > img {
     padding-right: 20px;
+    position: relative;
+    z-index: 4;
 }
 .services-slides > div:first-child {
     margin-left: 36px;
@@ -411,6 +419,7 @@ h1 > span {
 }
 .services-slides > div > .cont-service {
     position: absolute;
+    z-index: 5;
     top: 20px;
     left: 20px;
     color: white;
@@ -419,7 +428,7 @@ h1 > span {
     font-size: 26px;
 }
 
-/* A whole world of freelance  */
+                        /* A whole world of freelance  */
 
 #whole-world {
     display: flex;
