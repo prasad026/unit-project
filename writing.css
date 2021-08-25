@@ -299,3 +299,23 @@ input{
                             .footer-bottom {
                                 border-top: 1px solid rgb(228, 222, 222);
                             }
+/*Screen Size*/
+@media (max-width:1160px) {
+    .categories >.content{
+        display: none;
+    }
+    .categories{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .header hr{
+        margin: 10px;
+    }
+    .header .nav2{
+        overflow: scroll;
+        height: 20px;
+    }
+    .headClean{
+        display: none;
+    }
+}
